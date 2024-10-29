@@ -22,8 +22,8 @@ ul {
 }
 
 .item {
-  width: 100px;
-  height: 100px;
+  width: 150px;
+  height: 150px;
   padding: 10px;
   border: 1px solid gray;
   border-radius: 10px;
@@ -63,11 +63,11 @@ a {
 
 .modal-backdrop {
   position: fixed;
-  background-color: rgba(0,0,0,0.2);
-  top:0;
-  left:0;
-  right:0;
-  bottom:0;
+  background-color: rgba(0, 0, 0, 0.2);
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
   display: grid;
   place-items: center;
 
@@ -77,43 +77,43 @@ a {
     border-radius: 10px;
     padding: 20px;
     background-color: white;
-      .modal-item {
-        display: flex;
-        align-items: center;
-        img {
-          height: 120px;
-          margin: 10px;
-        }
+    .modal-item {
+      display: flex;
+      align-items: center;
+      img {
+        height: 120px;
+        margin: 10px;
       }
-      .options {
-        display: flex;
-        gap: 15px;
-    
-        .option {
-          font-size: 1rem;
-          font-weight: 600;
-          margin-bottom: 10px;
-      
-          li {
-            font-weight: 300;
-            font-size: 0.8rem;
-          }
-        }
-      }
-      .submit {
-        display: flex;
-        justify-content: space-between;
-        align-items: center;
+    }
+    .options {
+      display: flex;
+      gap: 15px;
 
-        input {
-          width: 50px;
-          margin: 10px;
-        }
+      .option {
+        font-size: 1rem;
+        font-weight: 600;
+        margin-bottom: 10px;
 
-        button {
-          padding: 10px;
+        li {
+          font-weight: 300;
+          font-size: 0.8rem;
         }
       }
+    }
+    .submit {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+
+      input {
+        width: 50px;
+        margin: 10px;
+      }
+
+      button {
+        padding: 10px;
+      }
+    }
   }
 }
 
